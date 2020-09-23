@@ -1,5 +1,9 @@
 .idea
+
+/05-struct/.idea
 /05-struct/Cargo.lock
 /05-struct/target
+
+/06-enum_match/.idea
 /06-enum_match/Cargo.lock
 /06-enum_match/target
