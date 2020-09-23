@@ -208,3 +208,18 @@ fn value_in_cents(coin: Coin) -> u32 {
         Coin::Quarter => 25,
     }
 }
+
+////////
+
+enum FunList<T> {
+    Nil,
+    Cons { head:  T, tail: Box<FunList<T>> }
+}
+
+impl FunList<T> {
+    fn append(item: T) -> FunList<T> {
+        match item {
+
+        }
+    }
+}
