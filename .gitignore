@@ -8,6 +8,5 @@
 /06-enum_match/Cargo.lock
 /06-enum_match/target
 
-/funfun/.idea
-/funfun/Cargo.lock
-/funfun/target
+/funfun/.idea/
+/funfun/target/
