@@ -31,6 +31,7 @@ pub fn verify_enum_choice(choice: AnswerEnum) -> bool {
 // - Cannot contain lifetimes or type parameters.
 // - Each field value must impl the Copy trait.
 // - String, enum 타입을 struct 의 변수로 선언할 때, private 으로 선언해야만 했다. 이를 getter, setter 를 이용해서 외부에서 접근하도록 한다.
+// - https://github.com/rustwasm/wasm-bindgen/issues/1775
 #[wasm_bindgen]
 pub struct TreetoryStruct {
     pub age: i32,
